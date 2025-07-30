@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+
+.box2{
+    height: 500px;
+    width: 600px;
+    background-color: aqua;
+    position: relative;
+   bottom: 950px;
+   left: 450px;
+   background-color: white;
+   box-shadow: 4px 4px 4px 4px grey;
+   border-radius: 5px;
+   align-content: center; 
+}
+
+
+.main{
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+
+
+
+
+
+
+/* DESKTOP (> 992px) */
+@media (min-width: 992px) {
+  .main {
+    overflow-y: hidden;
+    filter: blur(10px);
+  }
+
+  .box {
+    flex-direction: row;
+  }
+
+  
+
+  .content {
+    margin-left: 150px;
+  }
+
+  .navbar-nav {
+    padding-left: 600px !important;
+  }
+}

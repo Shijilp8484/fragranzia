@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+
+.box2{
+    height: 500px;
+    width: 600px;
+    background-color: aqua;
+    position: relative;
+   bottom: 950px;
+   left: 450px;
+   background-color: white;
+   box-shadow: 4px 4px 4px 4px grey;
+   border-radius: 5px;
+   align-content: center; 
+}
+
+
+.main{
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+@media (max-width:1000){
+ .box2 {
+   flex-direction: column;
+    margin-right: 100%;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+  }
+
+  .img {
+   flex-direction: column;
+    margin-right: 100%;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+  }
+
+
+
+}

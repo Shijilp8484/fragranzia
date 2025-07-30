@@ -1,0 +1,134 @@
+
+
+.kee{
+    height: 50px;
+    width: 550px;
+    background-color: #ffffff;
+    color: #003146;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    border-radius: 5px;
+    border-color: #003146;
+    border-width: 2px;
+    
+   
+}
+button{
+    background-color: #ffffff;
+    width: 80px;
+    border-radius: 5px;
+}
+
+
+.btn1{
+    background-color:#0d2a46;
+   height:45px;
+    width: 250px;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+   
+   
+   
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+
+.card:hover{
+     border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    transition: 1s;
+}
+
+
+.img:hover{
+     transition: 2s;
+  transform: scale(1.1);
+   
+}
+
+.box{
+overflow: scroll;
+overflow-x: scroll;
+overflow-y: hidden;
+scrollbar-width: none;
+}
+
+
+
+.footer{
+    padding: 100px;
+    background-color: rgb(139, 184, 190,1);
+ 
+}
+
+
+
+.footer1{
+    padding: 2px;
+   
+   
+   
+}
+.bt{
+   background-color: rgb(139, 184, 190,1);
+   height: 50px;
+   width: 100%;
+   border: 1px solid black;
+}
+
+
+
+@media(max-width:1000px) {
+
+    
+
+    .footer {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    
+   
+  }
+
+  .footer h2 {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .footer1 {
+    flex-direction: column;
+    height: auto;
+    width: 100px;
+    text-align: center;
+   
+    
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

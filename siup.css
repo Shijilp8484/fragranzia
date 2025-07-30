@@ -1,0 +1,152 @@
+.box{
+    
+    width: 450px;
+    height: 450px;
+    margin-top: 150px;
+    margin-left: 150px;
+    text-align: center;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    align-content: center;
+    background-image: url(caucasian-woman-applying-perfume-her-neck\ 2.jpg);
+    background-size: cover;
+    -webkit-text-fill-color: white;
+    
+}
+
+.part1{
+   background-color: white;
+   
+    
+}
+
+.body{
+    font-family: sans-serif;
+}
+
+.google{
+    
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+   margin-top: -450px;
+    margin-bottom: 400px;
+    margin-left: 300px;
+    border-color: blue;
+    border: 25px;
+    border-radius: 50px;
+
+}
+
+
+
+.box1{
+    height: 45px;
+    width: 160px;
+    background-color: rgb(255, 255, 255);
+    border-width: 50px;
+        border-radius: 10px;
+        text-align: center;
+        border: 2px solid #809ba5;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        
+}
+
+
+
+.box2{
+    height: 45px;
+    width: 160px;
+    background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            text-align: center;
+             border: 2px solid #809ba5;
+             display: flex;
+        justify-content: center;
+        gap: 15px;
+
+}
+
+/* h2{
+    size: 25px;
+    margin-bottom: 600px;
+} */
+
+
+.separator {
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: -380px;
+    margin-left:300px;
+}
+
+.form{
+height: 50px;
+    width: 350px;
+    margin-left: 730px;
+    border-radius: 10px; 
+    
+}
+
+.text{
+    height: 200px;
+    width: px;
+    background-color: aqua;
+}
+
+
+
+
+
+.email{
+        
+
+        
+    
+
+}
+
+.password{
+   
+                      
+
+
+    
+
+        
+}
+
+.confirmp{
+    
+     
+}
+
+.checkbox{
+    margin-top: 5px;
+    display: flex;
+}
+
+
+ 
+.h4{
+    text-align: center;
+}
+
+
+@media (max-width: 992px) {
+  .socials{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer h2 {
+    margin-top: 20px !important;
+  }
+}
