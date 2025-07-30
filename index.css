@@ -374,7 +374,13 @@ scrollbar-width: none;
 @media (max-width: 575.98px) {
   nav .navbar-nav {
     flex-direction: column;
-    padding-left: 0;
+    padding-left: 1000px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
   }
   nav .form-control {
     width: 100%;
@@ -394,7 +400,16 @@ scrollbar-width: none;
   .part3 .hey2,
   .part3 .hey3 {
     text-align: center;
-    margin-bottom: 1rem;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    bottom: 800px;
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+    
+  
+  
   }
 
 
@@ -408,6 +423,77 @@ scrollbar-width: none;
     height: auto;
 }
 
+.spray{
+    flex-direction: column;
+    gap: 5;
+   
+}
+
+.vattam{
+    flex-direction: column;
+    gap: 5;
+   text-align: center;
+}
+
+.hr{
+    flex-direction: column;
+    
+ 
+   height: auto;
+   width: auto;
+  
+}
+
+
+
+.bottom{
+    flex-direction: column;
+    gap: 5;
+   text-align: center;
+   height: auto;
+   width: auto;
+   margin-bottom: 500px;
+  
+}
+
+.bottom1{
+    flex-direction: column;
+    gap: 5;
+   text-align: center;
+   height: auto;
+   width: auto;
+   margin-bottom: 500px;
+  
+}
+
+.i.i1.i2{
+    flex-direction: column;
+    gap: 5;
+   text-align: center;
+   height: auto;
+   width: 100%;
+   margin-bottom: 500px;
+   align-items: center;
+
+  
+}
+
+.box{
+   margin-top: 800px;
+
+  
+}
+
+.feature{
+    position: relative;
+   top: 700px;
+}
+
+.box1{
+   flex-direction: column;
+
+  
+}
 
 
 }
